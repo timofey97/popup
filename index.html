@@ -1,14 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pop UP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <div class="wrapper">
+        <header id="header" class="header lock-padding">
+            <div class="header__container _container">
+                <a href="" class="header_logo"></a>
+                <a href="#popup" class="header_phone popup-link">Попап №1</a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="content_container _container">
+                <section class="content_secton content_section_row">
+                    <div class="content__body">
+                        <h1 class="content__title">sdfhdg</h1>
+                        <div class="content__text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vel vitae autem ex, accusamus ullam reiciendis ut facere fuga molestias perspiciatis est magni iste harum! Cum rem libero aliquid officiis.</p>
+                            <p>Quis ipsa numquam ipsam dolorem quidem debitis porro earum at, quibusdam suscipit officiis, ut eius fuga vitae tenetur consequuntur minus? Iste, rerum. Assumenda dolorum animi sunt quidem magni odit iste?</p>
+                            <p>Delectus deserunt pariatur impedit odio at voluptate ullam corporis aspernatur, id quam culpa odit aut vitae hic voluptates nemo reprehenderit ex voluptas reiciendis suscipit? Autem aut eos possimus neque consequatur?</p>
+                        </div>
+                    </div>
+                    <a href="#image" class="content__image popup-link">
+                        <img src="img/Anthony Tuil.jpg" alt="">
+                    </a>
+                </section>
+                <section class="content_section">
+                    <h2 class="content_subtitle">Lorem, ipsum.</h2>
+                    <div class="content__text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci expedita ipsum dicta inventore ratione vero placeat rem odit voluptate ad.</p>
+                        <p>Necessitatibus qui officia beatae est consequuntur laborum quis, fuga aut architecto sapiente accusantium illum temporibus sequi minus optio ex eos.</p>
+                        <p>Maxime amet excepturi magni, iusto molestias ex corrupti doloremque consequuntur dignissimos obcaecati corporis temporibus labore odit animi perferendis ipsam doloribus.</p>
+                        <p>Hic, quaerat aut iste deleniti voluptatum repudiandae nulla nisi aliquid ratione atque animi perferendis qui cumque laborum voluptatibus blanditiis corrupti?</p>
+                        <p>
+                            <a class="popup-link" href="#popup_2">попал 2</a></p>
+                        <p>A, earum odio error necessitatibus distinctio possimus iusto asperiores harum perferendis doloremque illum! Magni tenetur, totam quod atque adipisci earum.</p>
+                        <p>Tempora, quaerat rerum error quibusdam necessitatibus enim quidem praesentium adipisci? Aut mollitia laudantium pariatur nulla omnis cum enim sunt quidem!</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <!-- <a href="##" class="popup_area"></a> -->
+        <div class="popup__body ">
+            <div class="popup__content ">
+                <a href="##" class="popup__close close-popup">X</a>
+                <div class="popup__title ">Это модальное окно №1</div>
+                <div class="popup__text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, iusto soluta id est repudiandae distinctio rerum eveniet debitis voluptatibus, enim ut earum amet voluptatem eligendi ab voluptatum repellendus ratione. Impedit molestiae
+                    quisquam voluptates minus fugiat quod vitae sunt pariatur maxime sed nisi esse iure possimus delectus recusandae, quos natus cumque?</div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_2" class="popup">
+        <!-- <a href="##" class="popup_area"></a> -->
+        <div class="popup__body ">
+            <div class="popup__content ">
+                <a href="##" class="popup__close close-popup">X</a>
+                <div class="popup__title ">Это модальное окно №2</div>
+                <div class="popup__text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, iusto soluta id est repudiandae distinctio rerum eveniet debitis voluptatibus, enim ut earum amet voluptatem eligendi ab voluptatum repellendus ratione. Impedit molestiae
+                    quisquam voluptates minus fugiat quod vitae sunt pariatur maxime sed nisi esse iure possimus delectus recusandae, quos natus cumque?</div>
+            </div>
+        </div>
+    </div>
+    <scripts src="js/main.js"></scripts>
 </body>
 
 </html>
